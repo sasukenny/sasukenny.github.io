@@ -1,0 +1,141 @@
+#volver a{
+    text-decoration: none;
+    position: fixed;
+    margin-top: 20px;
+    left: 60px;
+    font-size: large;
+    color: #d6514c;
+}
+
+#salida a{
+    text-decoration: none;
+    position: fixed;
+    margin-top: 20px;
+    right: 60px;
+    font-size: large;
+    color: #d6514c;
+}
+
+.aviso{
+
+    color: white;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #e88484;
+    
+}
+
+.alineado{
+    text-align: center;
+}
+
+#cuadroPrincipalBienvenida{
+    display: flex;
+
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 0 0 0 0;
+    width: 100%;
+    background-color: #e88484;
+}
+.cuadroPrincipalBienvenida{
+    border-radius: 20px;
+
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #e88484;
+}
+
+
+#lateralBienvenida{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 0 0 0 0;
+    margin:0px;
+    flex: column;
+    width: 40%;
+    height: 400px;
+    background-color: #e88484;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bordSup{
+    border-top-left-radius: 20px;
+}
+
+.bordInf{
+    border-bottom-left-radius: 20px;
+}
+
+.opciones{
+    flex: 1 1 auto;
+    display: flex;
+    margin: 0px;
+    width: 200px;
+    background-color: #e88484;
+    border: 1px solid white;
+    
+}
+
+.opciones:hover{
+    color: #9b0e0e;
+    background-color: #d6514c;
+
+}
+
+.botonCita{
+
+    color:white;
+    font-size: 20px;
+
+}
+
+#contenido_inicio{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.cont{
+    text-align: center;
+}
+
+.cont_titulo{
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 20px;
+    color: white;
+}
+
+.video{
+    margin: 20px;
+    align-self:center;
+}
+
+.cont button{
+    width: fit-content;
+    background-color: #d6514c;
+    border-radius: 20px;
+    width: 40%;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    align-self: center;
+}
+
+.contenido{
+width: 100%;
+  height: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -1,0 +1,99 @@
+
+select{
+    color:#941e1e;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 7px;
+}
+
+.flechas{
+    width: 600px;
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c-img{   
+    margin:  auto;
+    position: relative;
+    display: flex;
+    align-items: center;  
+    width: 50%;
+}
+.d-img{   
+    width: 300px; height: auto; 
+}
+
+.img-opacity-50{
+    opacity:0.4;
+}
+.txt{
+    position: absolute;
+    left: 40%;
+    color: white;
+    
+    font-size: medium;  
+}
+.card-title {
+    position: absolute;    /* posición absolute con respecto al padre */
+    bottom: 0;             /* posicionada en la esquina inferior derecha */
+    right: 1em;
+  }
+
+
+#Superior{
+ 
+ margin: 0 0 0 0;
+ padding: 0 0 0 0;
+}
+#salirLugar{
+    color: #a12e2e;
+    font-weight: bold;
+    text-decoration: none;
+}
+#volverLugar{
+    color:#a12e2e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#superiorIzquierda {
+    position:absolute;
+    top:0;
+    left:10px;
+}
+
+#superiorDerecha {
+    position:absolute;
+    top:0;
+    right:10px;
+}
+
+#cuadroLugar{
+    margin-top: auto;
+    padding: 0 0 0 0;
+    width: 700px;
+    height: 400px;
+    background-color: #ffffff;    
+}
+
+#miniCuadroLugar{
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;    
+}
+#Siguiente{
+    color:#941e1e;
+    font-size: medium;
+    font-weight: bold;
+    border:4px #e88484 solid;
+    border-radius: 12px;
+}
+
+#Siguiente:hover{
+    background-color: #832222;
+    color: azure;
+}

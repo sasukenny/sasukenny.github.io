@@ -1,0 +1,116 @@
+#volver a{
+    text-decoration: none;
+    position: fixed;
+    margin-top: 20px;
+    left: 60px;
+    font-size: large;
+    color: #d6514c;
+}
+
+#salida a{
+    text-decoration: none;
+    position: fixed;
+    margin-top: 20px;
+    right: 60px;
+    font-size: large;
+    color: #d6514c;
+}
+
+#aviso{
+
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    width: 600px;
+    background-color: #e88484;
+}
+
+#cuadroPrincipalBienvenida{
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 0 0 0 0;
+    width: 100%;
+    background-color: #e88484;
+}
+
+#cajaTecho{
+    padding: 0px;
+    margin:0px;
+    display:flex;
+}
+
+.techo{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+
+#botonMostrarTodos{
+
+    width: fit-content;
+    background-color: #d6514c;
+    border-radius: 20px;
+    width: 20%;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+    
+}
+#botonMostrarTodos:hover{
+    background-color:#941e1e;
+    color: white;
+}
+
+#tablaCentrosDeSalud{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contTabla{
+    /* margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 10px; */
+    /*overflow-x:auto;*/
+}
+
+table {
+    width: 100%;
+    color: white;
+    border: 1px solid rgb(114, 6, 6);
+    
+ }
+ th, td {
+    width: 25%;
+    height:auto;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid rgb(114, 6, 6);
+
+    
+ }
+/* .dropDown{
+    border:4px #e88484 solid;
+    width: 200px;
+    height: 30px;
+              
+} */
+
+select{
+    color:#941e1e;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 7px;
+}
+
+
+
+

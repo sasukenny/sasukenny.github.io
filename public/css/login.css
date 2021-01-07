@@ -1,0 +1,172 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/*
+template
+*/
+
+.margen-5px{
+    margin: 5px;
+}
+
+.seccActiva{
+    display: flex;
+    flex-flow: column;
+}
+
+.seccInactiva{
+    display: none;
+}
+
+/* body{
+    display: flex;
+    margin: 0%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+/*Vacunación Covid-19 Perú*/
+
+
+h1{
+    color: #d94e50;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+/*cajita central*/
+#contenido{
+    display: flex;
+    align-items: center;
+    width: 400px;
+
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+form{
+    width: 100%;
+    flex: 1 1 auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #e88484;
+    color: white;
+    
+}
+
+.form-border{
+    border:1px #e88484 solid
+}
+
+#cont_form{
+    display: flex;
+    flex-flow: column;
+}
+
+.seccion{
+    background-color: #d94e50;
+    flex: 1 1 auto;
+}
+
+#sec-Ingresa{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.info_dni_burbuja{
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    position: fixed;
+    padding: 5px;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+#info_dni:hover .info_dni_burbuja {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.info_clave_burbuja{
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    position: fixed;
+    padding: 5px;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+#info_clave:hover .info_clave_burbuja {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+#sec-Video{
+    border-radius: 0px 0px 20px 20px;
+}
+
+#cont_video-tutorial{
+    margin: 7px;
+}
+
+#dni{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+#dni_input{
+    display: flex;
+    flex: 1 1 auto;
+
+    border: none;
+    border-bottom: 1px solid white;
+
+    background: transparent;
+}
+
+#clave{
+    display: flex;
+    
+    flex: 1 1 auto;
+}
+
+#clave_input{
+    display: flex;
+    flex: 1 1 auto;
+
+    border: none;
+    border-bottom: 1px solid white;
+
+    background: transparent;
+}
+
+#boton_ingresar{
+
+    font-size: 1.3em;
+    color: white;
+    border-radius: 5px;
+    background-color: #d94e50;
+}
+
+#footer-div{
+    display: flex;
+    padding-top: 5px;
+    width: 100%;
+
+    background-color: #d94e50;
+    position: fixed;
+    bottom: 0;
+    margin-top: 25px;
+}
+
+#footer-imagen{
+    margin: auto;
+}
